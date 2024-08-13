@@ -313,13 +313,13 @@ section .hero-img {
 }
 
 section .hero-img img {
-    width: 100%;
-    overflow: hidden;
+    width: 350px;
+    height: 350px;
     object-fit: contain;
     padding: 0.3rem;
     opacity: 1 ease-in;
     transition: 0.4s ease-in all;
-    border-radius: 25px;
+    border-radius: 50%;
     border: 1px solid #4c5f63;
 }
 /* @CSS Responsive Here */
