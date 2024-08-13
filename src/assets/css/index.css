@@ -31,7 +31,7 @@
     --link-color: #000000;
     --mobile-menu: #3b494f;
     --hero-h2: #00585e;
-    --active-link : #c64e00;
+    --active-link: #c64e00;
     --hero-h3: #c94f00;
     --hero-article: #4f5d5e;
     --mobile-menu-heading: #23ebf9;
@@ -309,15 +309,18 @@ section .hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
+    /*animation: 7s zoomIn forwards linear infinite;*/
 }
 
 section .hero-img img {
     width: 100%;
-    height: 100%;
+    overflow: hidden;
     object-fit: contain;
-    padding: 0.5rem;
+    padding: 0.3rem;
     opacity: 1 ease-in;
     transition: 0.4s ease-in all;
+    border-radius: 25px;
+    border: 1px solid #4c5f63;
 }
 /* @CSS Responsive Here */
 @media (max-width: 768px) {
@@ -348,6 +351,10 @@ section .hero-img img {
     .call,
     .nav {
         display: none;
+    }
+    header nav ul .active {
+        border-bottom: none;
+        color: var(--white);
     }
     .mobile-menu,
     .mobile-menu h3,
@@ -397,6 +404,18 @@ section .hero-img img {
         opacity: 1;
     }
 }
+@keyframes scaleLeft {
+    from {
+        transform: translateX(100%);
+        transition: 0.3s ease-in;
+        opacity: 0.2;
+    }
+    to {
+        transform: translateX(0);
+        transition: 0.3s ease-in;
+        opacity: 1;
+    }
+}
 
 @keyframes heroAnimation {
     0% {
@@ -409,5 +428,18 @@ section .hero-img img {
         opacity: 1 ease-in;
         transition: 0.4s ease-in all;
         transform: translateX(-100%);
+    }
+}
+@keyframes zoomIn {
+    0% {
+        transition: 0.2s ease-in;
+        opacity: 0.5;
+        transform: scale(0.7);
+    }
+
+    100% {
+        transition: 0.2s ease-in-out;
+        opacity: 0.5 ease-in;
+        transform: scale(1);
     }
 }

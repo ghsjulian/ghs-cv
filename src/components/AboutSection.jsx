@@ -17,8 +17,8 @@ const AboutSection = () => {
                         directly.
                     </article>
                 </div>
-                <div className="hero-img">
-                    <img id="hero-logo" src="/images/bg_1.png" />
+                <div  className="hero-img">
+                    <img style={{ border: "none" }} id="hero-logo" src="/images/ghs_5.png" />
                 </div>
             </section>
         </>

@@ -3,6 +3,21 @@ import { NavLink } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 
 const Hero = () => {
+    /*
+    const initImg = "./images/ghs_8.png";
+    const imgRef = useRef(null);
+    useEffect(() => {
+        var imgs = "ghs_";
+        var count = 1;
+        setInterval(() => {
+            imgRef.current.src = "images/" + imgs + count + ".png";
+            count += 1;
+            if (count >= 8) {
+                count = 1;
+            }
+        }, 7000);
+    }, []);
+*/
     return (
         <section>
             <div className="hero-text">
@@ -27,6 +42,7 @@ const Hero = () => {
                         loop // Set to loop through the strings continuously
                     />
                 </h3>
+                 <h4>Let's Know More About Myself</h4>
                 <article>
                     I'm Ghs Julian, A Full stack web application developer and
                     designer. I'm from Bangladesh. As a developer i have built
@@ -38,13 +54,17 @@ const Hero = () => {
                     <NavLink id="view" to="/contact">
                         Contact Me
                     </NavLink>
-                    <NavLink id="shop" to="#services">
+                    <NavLink
+                        id="shop"
+                        download="ghs_julian_cv.pdf"
+                        to="/data/cv.pdf"
+                    >
                         Download CV
                     </NavLink>
                 </div>
             </div>
             <div className="hero-img">
-                <img id="hero-logo" src="/images/bg_1.png" />
+                <img id="hero-logo" src="/images/ghs_8.png" />
             </div>
         </section>
     );
