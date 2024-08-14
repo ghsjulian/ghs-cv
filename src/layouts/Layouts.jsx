@@ -1,5 +1,4 @@
 import Header from "./Header";
-import Footer from "./Footer";
 import React, { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 // import AOS from "aos";
@@ -18,7 +17,6 @@ const Layouts = () => {
             <main>
                 <Outlet />
             </main>
-            <Footer />
         </>
     );
 };

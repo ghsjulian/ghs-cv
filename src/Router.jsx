@@ -3,6 +3,8 @@ import Layouts from "./layouts/Layouts";
 import Home from "./pages/Home";
 import Contact from "./components/Contact";
 import AboutSection from "./components/AboutSection";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import NotFound from "./components/404";
 
 const MyRoutes = [
@@ -14,22 +16,6 @@ const MyRoutes = [
                 index: true,
                 element: <Home />
             },
-
-            /*
-            { path: "/view-services/:service_id", element: <ViewService /> },
-            {
-                path: "services",
-                element: <Services />
-            },
-            {
-                path: "resume",
-                element: <Home />
-            },
-            {
-                path: "work",
-                element: <Home />
-            },
-            */
             {
                 path: "about",
                 element: <AboutSection />
@@ -37,14 +23,21 @@ const MyRoutes = [
             {
                 path: "contact",
                 element: <Contact />
+            },
+            {
+                path: "skills",
+                element: <Skills />
+            },
+            {
+                path: "projects",
+                element: <Projects />
             }
         ]
     },
     {
-                path: "*",
-                element: <NotFound />
-            }
-    
+        path: "*",
+        element: <NotFound />
+    }
 ];
 
 export default MyRoutes;
