@@ -1,7 +1,8 @@
 <center>
 
 <center>
-<img align="center" src="/public/images/ghs_5.png" width="250" height="250"><br>
+<center><img align="center" src="/public/images/ghs_5.png" width="250" height="250"></center>
+<br>
 <h2 align="center">Ghs Julian</h2>
 </center>
 
@@ -12,7 +13,7 @@
 
 
 <br><br>
-<h3>My Resume</h3>
+<h3>My Resume And CV</h3>
 
 ---
 
@@ -25,7 +26,7 @@
 
 ---
 
-<a href="https://github.com/ghsjulian" target="_blank"> Clik Here</a>
+<a href="https://ghsresume.netlify.app" target="_blank"> Clik Here</a>
 
 ---
 
@@ -51,15 +52,12 @@
 
 ---
 
-<img align="center" src="/public/images/Screenshot (13).png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot1.png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot2.png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot3.png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot3.png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot5.png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot6.png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot7.png" width="330" height="300"><br><br>
-<img align="center" src="src/assets/screenshots/screenshot8.png" width="330" height="300"><br><br>
+<img align="center" src="/public/images/Screenshot (13).png" width="100%" height="300"><br><br>
+<img align="center" src="/public/images/Screenshot (15).png" width="100%" height="300"><br><br>
+<img align="center" src="/public/images/Screenshot (16).png" width="100%" height="300"><br><br>
+<img align="center" src="/public/images/Screenshot (17).png" width="100%" height="300"><br><br>
+<img align="center" src="/public/images/Screenshot (18).png" width="100%" height="300"><br><br>
+
 
 ---
 
