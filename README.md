@@ -1,6 +1,6 @@
-<center><img align="center" src="/public/images/ghs_5.png" width="250" height="250"></center>
+<center><img align="center" src="/public/images/ghs_5.png" width="250" height="250">
 <h2 align="center">Ghs Julian</h2>
-
+</center>
 
 
 
