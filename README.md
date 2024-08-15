@@ -1,15 +1,8 @@
-<center>
-
-<center>
 <center><img align="center" src="/public/images/ghs_5.png" width="250" height="250"></center>
-<br>
+<center>
 <h2 align="center">Ghs Julian</h2>
 </center>
 
-
-
-
-</center>
 
 
 <br><br>
@@ -52,11 +45,11 @@
 
 ---
 
-<img align="center" src="/public/images/Screenshot (13).png" width="100%" height="300"><br><br>
-<img align="center" src="/public/images/Screenshot (15).png" width="100%" height="300"><br><br>
-<img align="center" src="/public/images/Screenshot (16).png" width="100%" height="300"><br><br>
-<img align="center" src="/public/images/Screenshot (17).png" width="100%" height="300"><br><br>
-<img align="center" src="/public/images/Screenshot (18).png" width="100%" height="300"><br><br>
+<img align="center" src="/public/images/Screenshot (13).png" width="100%" height="100%"><br><br>
+<img align="center" src="/public/images/Screenshot (15).png" width="100%" height="100%"><br><br>
+<img align="center" src="/public/images/Screenshot (16).png" width="100%" height="100%"><br><br>
+<img align="center" src="/public/images/Screenshot (17).png" width="100%" height="100%"><br><br>
+<img align="center" src="/public/images/Screenshot (18).png" width="100%" height="100%"><br><br>
 
 
 ---
