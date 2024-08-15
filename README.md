@@ -1,7 +1,7 @@
 <center>
 
 <center>
-<img align="center" src="src/assets/img/ghs_10.png" width="250" height="250"><br>
+<img align="center" src="/public/images/ghs_5.png" width="250" height="250"><br>
 <h2 align="center">Ghs Julian</h2>
 </center>
 
@@ -51,7 +51,7 @@
 
 ---
 
-<img align="center" src="src/assets/screenshots/screenshot4.png" width="330" height="300"><br><br>
+<img align="center" src="/public/images/Screenshot (13).png" width="330" height="300"><br><br>
 <img align="center" src="src/assets/screenshots/screenshot1.png" width="330" height="300"><br><br>
 <img align="center" src="src/assets/screenshots/screenshot2.png" width="330" height="300"><br><br>
 <img align="center" src="src/assets/screenshots/screenshot3.png" width="330" height="300"><br><br>

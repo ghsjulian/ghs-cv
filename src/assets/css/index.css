@@ -79,7 +79,7 @@ button {
 }
 
 .main-container {
-    width: 80dvw;
+    width: 90dvw;
     height: 90dvh;
     max-height: 90dh;
     display: flex;
@@ -248,7 +248,7 @@ section .hero-text {
     text-align: justify;
 }
 .hero-text h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: var(--hero-h2);
     margin: 0.7rem 0;
 }
@@ -306,7 +306,7 @@ section .hero-text {
 }
 .btn-area #shop {
     margin: 0.5rem;
-    margin-left: 2.8rem;
+    margin-left: 1rem;
     outline: none;
     border: 1px solid transparent;
     cursor: pointer;
