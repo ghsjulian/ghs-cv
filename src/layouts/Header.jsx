@@ -46,6 +46,11 @@ const Header = () => {
                     onClick={closeNav} to="/contact">
                         Contact
                     </NavLink>
+                    <NavLink
+                    className={path == "/my-gigs" ? "active" : ""}
+                    onClick={closeNav} to="/my-gigs">
+                        Active GIGS
+                    </NavLink>
                     <NavLink 
                     className={path == "/skills" ? "active" : ""}
                     onClick={closeNav} to="/skills">
