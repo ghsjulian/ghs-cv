@@ -59,8 +59,10 @@ const Hero = () => {
                     for your project or contact with me directly.
                 </article>
                 <div className="btn-area">
-                    <NavLink id="view" to="/contact">
-                        Contact Me
+                    <NavLink id="view" target="_blank" to="https://www.fiverr.com/s/7YwAqpx">
+
+
+                        Fiverr GIG
                     </NavLink>
                     <NavLink
                         id="shop"
