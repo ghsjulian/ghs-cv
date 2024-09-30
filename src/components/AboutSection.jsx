@@ -23,7 +23,7 @@ const AboutSection = () => {
                     <img
                         style={{ border: "none" }}
                         id="hero-logo"
-                        src="/images/ghs_5.png"
+                        src="/images/ghs_logo__1.png"
                     />
                 </div>
             </section>

@@ -135,6 +135,7 @@ header h3 {
     color: var(--logo);
     text-transform: capitalize;
     font-weight: 900;
+    cursor: pointer;
 }
 header nav ul {
     display: flex;
@@ -219,12 +220,15 @@ main {
     height: 100%;
     padding: 0.3rem 2rem;
     overflow-y: auto;
+    padding-bottom: 1rem;
 }
 main section {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
     animation: 0.5s scaleup linear;
 }
 .one-section {
@@ -250,17 +254,17 @@ section .hero-text {
 .hero-text h2 {
     font-size: 2rem;
     color: var(--hero-h2);
-    margin: 0.7rem 0;
+    margin: 0.5rem 0;
 }
 .hero-text h3 {
     font-size: 2rem;
     color: var(--hero-h3);
-    margin: 0.8rem 0;
+    margin: 0.3rem 0;
 }
 .hero-text h4 {
     font-size: 20px;
     color: #46494a;
-    margin: 0.8rem 0;
+    margin: 0.3rem 0;
 }
 .hero-text article {
     max-width: 90%;
@@ -268,6 +272,7 @@ section .hero-text {
     margin: 0.3rem 0;
     line-height: 1.9rem;
     font-weight: 700;
+    text-align: left;
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -277,7 +282,7 @@ section .hero-text {
     display: flex;
     justify-content: left;
     align-items: left;
-    margin: 1.3rem 0;
+    margin: 1rem 0;
     padding: 0.3rem 0;
 }
 
@@ -286,7 +291,7 @@ section .hero-text {
     display: flex;
     justify-content: left;
     align-items: left;
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
 }
 .btn-area #view {
     margin: 0.5rem;
@@ -297,7 +302,7 @@ section .hero-text {
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
     background: #008881;
     color: #ffffff;
     border-radius: 8px;
@@ -314,7 +319,7 @@ section .hero-text {
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
     background: #0061d0;
     color: #ffffff;
     border-radius: 8px;
@@ -346,7 +351,7 @@ section .hero-text {
 }
 .hero-text .social {
     position: relative;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     bottom: 0;
     left: 0;
     display: flex;
@@ -375,8 +380,8 @@ section .hero-text {
     color: var(--call-btn);
 }
 section .hero-img {
-    width: 350px;
-    height: 350px;
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -384,14 +389,17 @@ section .hero-img {
 }
 
 section .hero-img img {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
-    padding: 0.3rem;
+    padding: 0.5rem;
     opacity: 1 ease-in;
     transition: 0.4s ease-in all;
     border-radius: 50%;
-    border: 1px solid #4c5f63;
+    border-style: dashed;
+    border-width: 3.3px;
+    border-color: #4c5f63;
+    filter: contrast(120%);
 }
 footer {
     display: flex;
@@ -425,7 +433,7 @@ footer {
     max-width: 90%;
     color: var(--hero-article);
     margin: 1rem 0;
-    text-align: justify;
+    text-align: left;
     line-height: 1.9rem;
     font-weight: 700;
     font-size: 16px;
@@ -609,6 +617,10 @@ footer {
     #about :nth-child(1) {
         order: -1;
     }
+    section .hero-img img {
+        width: 300px;
+        height: 300px;
+    }
     .hero-text h2 {
         font-size: 1.5rem;
         margin: 0.5rem 0;
@@ -624,7 +636,8 @@ footer {
     .btn-area #shop {
         margin-left: 0;
     }
-    .hero-text article {
+    .hero-text article,
+    .one-section article {
         width: 100%;
         max-width: 100%;
     }
@@ -636,6 +649,7 @@ footer {
     .one-section article {
         width: 98%;
         margin: 0.6rem 0;
+        text-align: left;
         padding: 0.4rem 0;
     }
     .projects .project img {

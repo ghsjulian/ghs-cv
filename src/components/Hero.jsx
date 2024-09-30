@@ -11,21 +11,6 @@ import { IoLogoTwitter } from "react-icons/io";
 import { FaGoogle } from "react-icons/fa";
 
 const Hero = () => {
-    /*
-    const initImg = "./images/ghs_8.png";
-    const imgRef = useRef(null);
-    useEffect(() => {
-        var imgs = "ghs_";
-        var count = 1;
-        setInterval(() => {
-            imgRef.current.src = "images/" + imgs + count + ".png";
-            count += 1;
-            if (count >= 8) {
-                count = 1;
-            }
-        }, 7000);
-    }, []);
-*/
     return (
         <section id="hero">
             <div className="hero-text">
@@ -59,9 +44,11 @@ const Hero = () => {
                     for your project or contact with me directly.
                 </article>
                 <div className="btn-area">
-                    <NavLink id="view" target="_blank" to="https://www.fiverr.com/s/7YwAqpx">
-
-
+                    <NavLink
+                        id="view"
+                        target="_blank"
+                        to="https://www.fiverr.com/s/7YwAqpx"
+                    >
                         Fiverr GIG
                     </NavLink>
                     <NavLink
@@ -73,16 +60,28 @@ const Hero = () => {
                     </NavLink>
                 </div>
                 <div className="social">
-                    <NavLink to="https://web.facebook.com/ghs.julian.85" target="_blank">
+                    <NavLink
+                        to="https://web.facebook.com/ghs.julian.85"
+                        target="_blank"
+                    >
                         <FaFacebookF />
                     </NavLink>
-                    <NavLink to="https://twitter.com/@ghsjulian" target="_blank">
+                    <NavLink
+                        to="https://twitter.com/@ghsjulian"
+                        target="_blank"
+                    >
                         <IoLogoTwitter />
                     </NavLink>
-                    <NavLink to="https://linkedin.com/Ghsjulian" target="_blank">
+                    <NavLink
+                        to="https://linkedin.com/in/gobindo.bhor"
+                        target="_blank"
+                    >
                         <FaLinkedinIn />
                     </NavLink>
-                    <NavLink to="https://youtube.com/@ghsjulian" target="_blank">
+                    <NavLink
+                        to="https://youtube.com/@ghsjulian"
+                        target="_blank"
+                    >
                         <FaYoutube />
                     </NavLink>
                     <NavLink to="https://github.com/Ghsjulian" target="_blank">
@@ -91,7 +90,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-img">
-                <img id="hero-logo" src="/images/ghs_8.png" />
+                <img id="hero-logo" src="/images/ghs_logo__2.png" />
             </div>
         </section>
     );
