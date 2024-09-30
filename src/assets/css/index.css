@@ -266,7 +266,8 @@ section .hero-text {
     color: #46494a;
     margin: 0.3rem 0;
 }
-.hero-text article {
+.hero-text article,
+.article article {
     max-width: 90%;
     color: var(--hero-article);
     margin: 0.3rem 0;
@@ -501,7 +502,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.hero-img .form {
+.form {
     margin-top: 1rem;
     width: 100%;
     overflow: hidden;
@@ -523,9 +524,9 @@ footer {
     background: transparent;
     padding: 1rem 1rem;
     margin: 0.7rem auto;
-    border-radius: 8px;
-    border: 1px solid #17aaff;
-    color: #17aaff;
+    border-radius: 5px;
+    border: 1px solid var(--hero-article);
+    color: var(--hero-article);
     font-weight: 500;
     width: 90%;
 }
@@ -536,9 +537,9 @@ footer {
     background: transparent;
     padding: 0.7rem 1rem;
     margin: 0.7rem auto;
-    border-radius: 10px;
-    border: 1px solid #17aaff;
-    color: #17aaff;
+    border-radius: 5px;
+    border: 1px solid var(--hero-article);
+    color: var(--hero-article);
     font-weight: 500;
     font-family: Sans-Serif;
     height: 100px;
@@ -546,7 +547,7 @@ footer {
 .form input:focus,
 .form textarea:focus {
     transition: 0.3s ease-in;
-    border: 1px solid #00eb02;
+    border: 1px solid #148705;
 }
 .form button {
     border: none;
@@ -555,6 +556,7 @@ footer {
     padding: 0.6rem 0.7rem;
     margin: 0.7rem auto;
     border-radius: 8px;
+    text-align: center;
     color: var(--white);
     font-weight: 500;
     transition: 0.3s ease-in;
@@ -637,7 +639,8 @@ footer {
         margin-left: 0;
     }
     .hero-text article,
-    .one-section article {
+    .one-section article,
+    .article article {
         width: 100%;
         max-width: 100%;
     }
