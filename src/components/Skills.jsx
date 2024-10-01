@@ -23,6 +23,7 @@ const Skills = () => {
     };
     useEffect(() => {
         fetchData(url);
+        window.scrollTo({ top: 0, behavior: "smooth" });
     }, []);
 
     return (

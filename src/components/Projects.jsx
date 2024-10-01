@@ -23,6 +23,7 @@ const Projects = () => {
     };
     useEffect(() => {
         fetchData(url);
+        window.scrollTo({ top: 0, behavior: "smooth" });
     }, []);
     return (
         <div data-aos="zoom-in"  className="one-section">

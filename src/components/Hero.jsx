@@ -11,6 +11,9 @@ import { IoLogoTwitter } from "react-icons/io";
 import { FaGoogle } from "react-icons/fa";
 
 const Hero = () => {
+     useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
     return (
         <section id="hero">
             <div className="hero-text">
@@ -47,9 +50,9 @@ const Hero = () => {
                     <NavLink
                         id="view"
                         target="_blank"
-                        to="https://www.fiverr.com/s/7YwAqpx"
+                        to="/contact"
                     >
-                        Fiverr GIG
+                        Contact Me
                     </NavLink>
                     <NavLink
                         id="shop"

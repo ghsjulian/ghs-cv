@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Contact = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
     document.title =
         "Contact With Me - Hire Ghs Ghs Julian For Your Project | Contact With Ghs Julian";
     return (
@@ -15,15 +18,52 @@ const Contact = () => {
                         on my Facebook or My Email. The contact form won't be
                         work, so don't try to contact here.
                     </article>
+                    <div className="contact-info">
+                        <h2>Get Connect With Me</h2>
+                        <ul>
+                            <li>
+                                Contact Number : <a>01302661227</a>
+                            </li>
+                            <li>
+                                Outlook Email :<a>ghsjulian@outlook.com</a>
+                            </li>
+                            <li>
+                                Google Email : <a>ghsjulian@gmail.com</a>
+                            </li>
+                            <li>
+                                Facebook Messanger : <a>Ghs Julian</a>
+                            </li>
+                            <li>
+                                Linkedin Profile : <a>Gobindo Bhor</a>
+                            </li>
+                            <li>
+                                Github Profile : <a>Ghs Julian</a>
+                            </li>
+                            <li>
+                                Country : <a>Bangladesh</a>
+                            </li>
+                            <li>
+                                Division : <a>Sylhet</a>
+                            </li>
+                            <li>
+                                District : <a>Maulvibazar</a>
+                            </li>
+                            <li>
+                                City : <a>Kamolgonj</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="form">
                     <h3>Fill Out This Form</h3>
                     <input type="text" placeholder="Enter Your Name" />
                     <input type="email" placeholder="Enter Your Email" />
+                    <input type="tel" placeholder="Enter Your Phone Number" />
                     <textarea placeholder="Write Your Message..."></textarea>
                     <button className="contact-btn">Send Messages</button>
                 </div>
             </section>
+            <h2>My Hobbies And Passion</h2>
             <section className="article">
                 <article>
                     I like to create differnt kinda websites , web applications

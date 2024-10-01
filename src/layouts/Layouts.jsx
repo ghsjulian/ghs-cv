@@ -1,16 +1,11 @@
 import Header from "./Header";
-import React, { useEffect } from "react";
-import { Outlet } from "react-router-dom";
-// import AOS from "aos";
-// import "aos/dist/aos.css"
+import React, { useEffect, useState } from "react";
+import { Outlet, useLocation } from "react-router-dom";
 import "../assets/css/index.css";
 
 const Layouts = () => {
-    useEffect(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-        // AOS.init();
-        // AOS.refresh();
-    }, []);
+    const location = useLocation();
+    const [path, setPath] = useState("");
     return (
         <>
             <Header />
