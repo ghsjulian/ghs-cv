@@ -163,6 +163,7 @@ header .call {
     background: var(--call-btn);
     border-radius: 15px;
     padding: 0.5rem 1rem;
+    width: 110px;
     cursor: pointer;
     transition: 0.3s ease-in all;
     font-weight: 800;
@@ -225,7 +226,7 @@ header .call:hover {
 }
 
 .mobile-menu ul .call {
-    margin-left: -5.5rem;
+    margin-left: -4.2rem;
     margin-top: 1.7rem;
     text-align: left;
     padding: 0.5rem 1.7rem;

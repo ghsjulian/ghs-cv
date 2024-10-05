@@ -93,7 +93,7 @@ const Header = () => {
                         src={
                             isOpen
                                 ? "/icons/delete.png"
-                                : "/icons/burger_menu.png"
+                                : "/icons/menu.svg"
                         }
                     />
                 </button>

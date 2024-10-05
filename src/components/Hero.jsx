@@ -49,7 +49,6 @@ const Hero = () => {
                 <div className="btn-area">
                     <NavLink
                         id="view"
-                        target="_blank"
                         to="/contact"
                     >
                         Contact Me
