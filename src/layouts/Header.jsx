@@ -21,7 +21,7 @@ const Header = () => {
         navigate("/");
     };
     const goContact = () => {
-        navigate("/contact");
+        navigate("/services");
     };
     useEffect(() => {
         setPath(location.pathname);
@@ -57,9 +57,9 @@ const Header = () => {
                         <NavLink
                             className={path == "/my-gigs" ? "active" : ""}
                             onClick={closeNav}
-                            to="/my-gigs"
+                            to="/services"
                         >
-                            Active GIGS
+                            Services
                         </NavLink>
                         <NavLink
                             className={path == "/skills" ? "active" : ""}
@@ -90,11 +90,7 @@ const Header = () => {
                 </button>
                 <button onClick={openNav} className="nav-btn">
                     <img
-                        src={
-                            isOpen
-                                ? "/icons/delete.png"
-                                : "/icons/menu.svg"
-                        }
+                        src={isOpen ? "/icons/delete.png" : "/icons/menu.svg"}
                     />
                 </button>
             </header>
@@ -102,7 +98,7 @@ const Header = () => {
                 onClick={closeNav}
                 ref={overlyRef}
                 id="overly"
-                className={isOpen&&"overly"}
+                className={isOpen && "overly"}
             ></div>
         </>
     );
