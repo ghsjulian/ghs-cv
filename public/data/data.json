@@ -1,6 +1,20 @@
 [
         {
         "project_id": 101001,
+        "project_name": "E Commerce Admin Dashboard",
+        "project_img": "../projects/admin-dashboard-mern-stack.jpg",
+        "project_url": "",
+        "project_date": "18 August 2021"
+    },
+        {
+        "project_id": 101001,
+        "project_name": "Mini Facebook Social Media",
+        "project_img": "../projects/mini-facebook.jpg",
+        "project_url": "",
+        "project_date": "18 August 2021"
+    },
+        {
+        "project_id": 101001,
         "project_name": "E Commerce Shopping Cart",
         "project_img": "../projects/shopping_cart.jpg",
         "project_url": "https://ghs.rf.gd",
