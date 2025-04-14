@@ -75,14 +75,12 @@ const Header = () => {
                         >
                             Projects
                         </NavLink>
-                        <button
-                            onClick={() => {
-                                goContact(), closeNav();
-                            }}
+                        <NavLink
+                                                        to="https://wa.me/8801302661227?text=I%20am%20interested%20in%20hiring%20a%20full%20stack%20web%20developer."   
                             className="call"
                         >
                             Hire Me
-                        </button>
+                        </NavLink>
                     </ul>
                 </nav>
                 <button onClick={goContact} className="call">
