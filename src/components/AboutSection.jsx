@@ -23,7 +23,7 @@ const AboutSection = () => {
                     <img
                         style={{ border: "none" }}
                         id="hero-logo"
-                        src="/images/ghs_logo__1.png"
+                        src="/images/ghs-1.jpg"
                     />
                 </div>
             </section>
@@ -37,10 +37,11 @@ const AboutSection = () => {
                     such thing. I learn everything from we3schools,
                     Tutuorialspoint, JavaTpoint etc. You can also visit my
                     skills section that you can verify i am really a web
-                    developer.Currently i am learning MERN STACK ando making some 
-                    projects using MERN STACK technologies. If you are looking a really proffessional 
-                    web developer you can dirctly contact with me or simply press hire me button on 
-                    the top right corner.
+                    developer.Currently i am learning MERN STACK ando making
+                    some projects using MERN STACK technologies. If you are
+                    looking a really proffessional web developer you can dirctly
+                    contact with me or simply press hire me button on the top
+                    right corner.
                 </article>
             </section>
         </>

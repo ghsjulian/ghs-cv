@@ -1,4 +1,4 @@
-<center><img align="center" src="/public/images/ghs_5.png" width="250" height="250">
+<center><img align="center" src="/public/images/ghs-passport-photo-2.jpg" width="250" height="250">
 </center>
 <br>
 <h2>Ghs Julian</h2>

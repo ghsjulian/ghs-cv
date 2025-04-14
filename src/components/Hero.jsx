@@ -11,7 +11,7 @@ import { IoLogoTwitter } from "react-icons/io";
 import { FaGoogle } from "react-icons/fa";
 
 const Hero = () => {
-     useEffect(() => {
+    useEffect(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }, []);
     return (
@@ -40,16 +40,18 @@ const Hero = () => {
                 </h3>
                 <h4>Let's Know More About Myself</h4>
                 <article>
-                    I'm Ghs Julian, A Full stack web application developer and
-                    designer. I'm from Bangladesh. As a developer i have built
-                    my technologies skills. For knowing more about myself please
-                    scroll down and read more about myself. You can also hire me
-                    for your project or contact with me directly.
+                    Hello! I’m Ghs Julian, a dedicated full-stack web
+                    application developer and designer from Sylhet, Maulovibazar
+                    in Bangladesh. I specialize in creating innovative web
+                    solutions and have a strong foundation in various
+                    technologies. Feel free to scroll down to learn more about
+                    my work, and don’t hesitate to reach out if you’d like to
+                    collaborate on a project!
                 </article>
                 <div className="btn-area">
                     <NavLink
                         id="view"
-                        to="/contact"
+                        to="https://wa.me/8801302661227?text=I%20am%20interested%20in%20hiring%20a%20full%20stack%20web%20developer."
                     >
                         Contact Me
                     </NavLink>
@@ -93,7 +95,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-img">
-                <img id="hero-logo" src="/images/ghs_logo__2.png" />
+                <img id="hero-logo" src="/images/ghs-passport-photo-2.jpg" />
             </div>
         </section>
     );
