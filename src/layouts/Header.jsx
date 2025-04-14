@@ -78,6 +78,7 @@ const Header = () => {
                         <NavLink
                                                         to="https://wa.me/8801302661227?text=I%20am%20interested%20in%20hiring%20a%20full%20stack%20web%20developer."   
                             className="call"
+                            target="_blank"
                         >
                             Hire Me
                         </NavLink>
