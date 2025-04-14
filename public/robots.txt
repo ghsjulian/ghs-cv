@@ -1,0 +1,8 @@
+# Allow all crawlers access to the entire site
+User -agent: *
+Disallow: /private/          # Block access to private directory
+Disallow: /temp/             # Block access to temporary files
+Allow: /
+
+# Sitemap location
+Sitemap: https://ghsresume.netlify.app/sitemap.xml
