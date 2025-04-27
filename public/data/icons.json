@@ -14,6 +14,13 @@
         "project_date": "03 January 2022"
     },
     {
+        "project_persent": "35%",
+        "project_name": "BOOTSTRAP",
+        "project_img": "../icons/bootstrap.png",
+        "project_url": "https://ghsjulian.github.io/Relax-Tea/",
+        "project_date": "03 January 2022"
+    },
+    {
         "project_persent": "75%",
         "project_name": "JAVASCRIPT",
         "project_img": "../icons/javascript.png",
@@ -28,25 +35,39 @@
         "project_date": "18 March 2022"
     },
     {
-        "project_persent": "65%",
-        "project_name": "NODEJS",
-        "project_img": "../icons/node.png",
-        "project_url": "https://ghsjulian.github.io/office-management/",
-        "project_date": "09 September 2022"
+        "project_persent": "70%",
+        "project_name": "MYSQL",
+        "project_img": "../icons/mysql-2.png",
+        "project_url": "https://ghsjulian.github.io/SIRI_1.01_Vesion/",
+        "project_date": "13 July 2022"
     },
     {
-        "project_persent": "60%",
-        "project_name": "REACT",
-        "project_img": "../icons/react.png",
-        "project_url": "https://ghsjulian.github.io/__BLOG__/",
-        "project_date": "23 June 2022"
+        "project_persent": "65%",
+        "project_name": "MongoDB",
+        "project_img": "../icons/mongodb.png",
+        "project_url": "https://ghsjulian.github.io/Love-Calculation/",
+        "project_date": "23 October 2023"
     },
     {
         "project_persent": "60%",
         "project_name": "EXPRESS",
-        "project_img": "../icons/express.png",
+        "project_img": "../icons/expressjs.png",
         "project_url": "https://ghsjulian.github.io/Love-Calculation/",
         "project_date": "23 October 2023"
+    },
+    {
+        "project_persent": "60%",
+        "project_name": "REACT",
+        "project_img": "../icons/react-2.png",
+        "project_url": "https://ghsjulian.github.io/__BLOG__/",
+        "project_date": "23 June 2022"
+    },
+    {
+        "project_persent": "65%",
+        "project_name": "NODEJS",
+        "project_img": "../icons/nodejs.png",
+        "project_url": "https://ghsjulian.github.io/office-management/",
+        "project_date": "09 September 2022"
     },
     {
         "project_persent": "50%",
@@ -54,13 +75,6 @@
         "project_img": "../icons/python.png",
         "project_url": "https://ghsjulian.github.io/Binary-Converter/",
         "project_date": "26 August 2023"
-    },
-    {
-        "project_persent": "70%",
-        "project_name": "MYSQL",
-        "project_img": "../icons/mysql.png",
-        "project_url": "https://ghsjulian.github.io/SIRI_1.01_Vesion/",
-        "project_date": "13 July 2022"
     },
     {
         "project_persent": "75%",

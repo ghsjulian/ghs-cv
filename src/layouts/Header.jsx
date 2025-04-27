@@ -84,9 +84,11 @@ const Header = () => {
                         </NavLink>
                     </ul>
                 </nav>
+              { /*
                 <button onClick={goContact} className="call">
                     Hire Me
                 </button>
+               */ }
                 <button onClick={openNav} className="nav-btn">
                     <img
                         src={isOpen ? "/icons/delete.png" : "/icons/menu.svg"}

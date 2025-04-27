@@ -35,6 +35,9 @@ const Projects = () => {
                 check it here i have updated the live demo link and screenshots
                 please check it out. For more details you can visit my GitHub
                 Profile.
+                In my 3+ years of experience I built so much projects.
+                And here is some projects which i have built using my phone.
+                You can also explore my projects source codes in my GitHub.
             </article>
             <div className="projects">
                 {loading && (
