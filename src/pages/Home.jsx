@@ -11,8 +11,7 @@ const Home = () => {
     }, []);
     return (
         <>
-             {isLoading ? <Loader />:
-            <Hero />}
+            <Hero />
         </>
     );
 };
