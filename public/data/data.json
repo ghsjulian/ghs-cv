@@ -13,6 +13,13 @@
         "project_url": "",
         "project_date": "18 August 2021"
     },
+    {
+      "project_id":447,
+      "project_name":"Chat-AppV2.0.01",
+      "project_url":"https://chat-app-v2-0-0.onrender.com/",
+      "project_img" : "../projects/admin_cms.jpg",
+      "project_date":"15 May 2025"
+    },
         {
         "project_id": 101001,
         "project_name": "Mini Facebook Social Media",
