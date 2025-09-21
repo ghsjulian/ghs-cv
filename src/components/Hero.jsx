@@ -29,8 +29,7 @@ const Hero = () => {
                             "Front-End Developer",
                             "Back-End Developer",
                             "PHP Developer",
-                            "SEO Expert",
-                            "Ethical Programmer"
+                            "SEO Expert"
                         ]}
                         cursorChar="|"
                         typeSpeed={70} // Adjust typing speed here (milliseconds)
@@ -38,15 +37,15 @@ const Hero = () => {
                         loop // Set to loop through the strings continuously
                     />
                 </h3>
-                <h4>Let's Know More About Myself</h4>
+                {/*<h4>Let's Know More About Myself</h4>*/}
                 <article>
-                    Hello! I’m Ghs Julian, a dedicated full-stack web
-                    application developer and designer from Sylhet, Maulovibazar
-                    in Bangladesh. I specialize in creating innovative web
-                    solutions and have a strong foundation in various
-                    technologies. Feel free to scroll down to learn more about
-                    my work, and don’t hesitate to reach out if you’d like to
-                    collaborate on a project!
+                    Hello there ! I’m Ghs Julian, a passionate Full-Stack Web
+                    Application Developer and Designer from Komolgonj,
+                    Maulovibazar, Sylhet, Bangladesh. I specialize in creating
+                    innovative, user-friendly, and scalable web solutions with a
+                    strong foundation in modern technologies. Feel free to
+                    explore my work below, and don’t hesitate to connect if
+                    you’d like to collaborate on a project.
                 </article>
                 <div className="btn-area">
                     <NavLink
@@ -58,8 +57,8 @@ const Hero = () => {
                     <NavLink
                         id="shop"
                         target="_blank"
-                        download="ghs_julian_cv.pdf"
-                        to="/data/cv2.pdf"
+                        download="ghs_julian_cv_resume.pdf"
+                        to="/data/ghs_julian_cv_resume.pdf"
                     >
                         Download CV
                     </NavLink>
