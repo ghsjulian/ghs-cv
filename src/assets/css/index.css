@@ -79,9 +79,9 @@ button {
 }
 
 .main-container {
-    width: 90dvw;
-    height: 90dvh;
-    max-height: 90dh;
+    position: relative;
+    width: 90vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     margin: 2rem auto;
@@ -179,7 +179,7 @@ header ul .call:hover {
     top: 0;
     left: 0;
     width: 60%;
-    height: 100dvh;
+    height: 100vh;
     position: fixed;
     background: var(--mobile-menu);
     z-index: 1000;
@@ -421,8 +421,8 @@ section .hero-img img {
     transition: 0.4s ease-in all;
     border-radius: 50%;
     border-style: dashed;
-    border-width: 3.3px;
-    border-color: #4c5f63;
+    border-width: 3px;
+    border-color: var(--call-btn);
     filter: contrast(120%);
 }
 footer {
@@ -658,11 +658,14 @@ footer {
     object-fit: fill;
 }
 /* @CSS Responsive Here */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .main-container {
-        width: 100dvw;
-        height: 100dvh;
-        max-height: 100dvh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
         display: flex;
         align-items: center;
         scroll-behavior: smooth;

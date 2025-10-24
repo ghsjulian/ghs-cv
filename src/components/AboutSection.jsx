@@ -23,7 +23,7 @@ const AboutSection = () => {
                     <img
                         style={{ border: "none" }}
                         id="hero-logo"
-                        src="/images/ghs-passport-photo-2.jpg"
+                        src="/images/ghsjulian--4.png"
                     />
                 </div>
             </section>
