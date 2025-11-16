@@ -57,8 +57,8 @@ const Hero = () => {
                     <NavLink
                         id="shop"
                         target="_blank"
-                        download="ghs_julian_cv_resume.pdf"
-                        to="/data/ghs_julian_cv_resume.pdf"
+                        download="ghsjulian-web-developer-resume.pdf"
+                        to="/data/ghsjulian-web-developer-resume.pdf"
                     >
                         Download CV
                     </NavLink>
