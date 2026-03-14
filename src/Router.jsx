@@ -3,9 +3,10 @@ import Layouts from "./layouts/Layouts";
 import Home from "./pages/Home";
 import Contact from "./components/Contact";
 import AboutSection from "./components/AboutSection";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Marketing from "./components/Marketing"
+import Marketing from "./components/Marketing";
 import NotFound from "./components/404";
 
 const MyRoutes = [
@@ -19,7 +20,7 @@ const MyRoutes = [
             },
             {
                 path: "about",
-                element: <AboutSection />
+                element: <About />
             },
             {
                 path: "contact",

@@ -1,60 +1,31 @@
-<center><img align="center" src="/public/images/ghs-passport-photo-2.jpg" width="250" height="250">
-</center>
-<br>
-<h2>Ghs Julian</h2>
+## 🚀 Ghs Julian | Full-Stack Web Developer
 
-
-<br><br>
-<h3>My Resume And CV</h3>
+Building scalable, high-performance web applications with **MERN Stack**, **PHP**, and **Python**. Transforming complex business requirements into seamless digital experiences.
 
 ---
 
-**This Is My Favorite Resume And Portfolio**
+### 🛠 Tech Stack & Tools
+| Frontend | Backend | Database | Tools |
+| :--- | :--- | :--- | :--- |
+| **React.js** | **Node.js** | **MongoDB** | Git / GitHub |
+| JavaScript | Express.js | MySQL | Bash Scripting |
+| HTML5 / CSS3 | PHP | Firebase | Netlify |
+| Tailwind CSS | Python | REST APIs | VS Code |
 
 ---
 
-<h3>LIVE DEMO LINK : </h3>
-
-
----
-
-<a href="https://ghsresume.netlify.app" target="_blank"> Clik Here</a>
+### 📈 Portfolio & Impact
+* **130+ Projects Completed:** A track record of high-volume development and rapid deployment.
+* **Core Specialization:** E-commerce platforms, Real-time chat applications, and dynamic web interfaces.
+* **Global Ready:** Architecting solutions with performance and SEO at the forefront.
 
 ---
 
-
-<br><br>
-
-<h3>Language And Technologies : </h3>
-
----
-
-1. HTML5
-2. CSS3
-3. JAVASCRIPT
-4. PNG/IMAGES
-5. ANIMATIONS 
-6. REACT
-7. JSON
+### 🌐 Connect With Me
+* **Portfolio:** [ghsresume.netlify.app](https://ghsresume.netlify.app/)
+* **LinkedIn:** [linkedin.com/in/gobindo-bhor/](https://www.linkedin.com/in/gobindo-bhor/)
+* **Fiverr:** [fiverr.com/ghs_julian](https://www.fiverr.com/ghs_julian)
+* **GitHub:** [github.com/ghsjulian](https://github.com/ghsjulian)
 
 ---
-
-<h3>SCREENSHOT AND DEMO : </h3>
-<br><br>
-
----
-
-<img align="center" src="/public/images/Screenshot (13).png" width="100%" height="100%"><br><br>
-<img align="center" src="/public/images/Screenshot (15).png" width="100%" height="100%"><br><br>
-<img align="center" src="/public/images/Screenshot (16).png" width="100%" height="100%"><br><br>
-<img align="center" src="/public/images/Screenshot (17).png" width="100%" height="100%"><br><br>
-<img align="center" src="/public/images/Screenshot (18).png" width="100%" height="100%"><br><br>
-
-
----
-
-
-<br><br>
-<center>
-<h2> Thank You !!! </h2>
-</center>
+*Based in Maulovibazar, Sylhet, Bangladesh | Currently pursuing BA Honours in English.*

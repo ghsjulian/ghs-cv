@@ -17,12 +17,12 @@ const Hero = () => {
     return (
         <section id="hero">
             <div className="hero-text">
-                <h2>Hello There ! Welcome To My Portfolio</h2>
+                <h2>Welcome To My Portfolio</h2>
                 <h3 className="sub-title">
                     <ReactTyped
                         strings={[
-                            "Web Developer",
-                            "Freelacer",
+                            "MERN Stack Developer",
+                            "Freelacer & Programmer",
                             "Full Stack Developer",
                             "Developer - Designer",
                             "Website Developer",
@@ -39,13 +39,14 @@ const Hero = () => {
                 </h3>
                 {/*<h4>Let's Know More About Myself</h4>*/}
                 <article>
-                    Hello there ! I’m Ghs Julian, a passionate Full-Stack Web
-                    Application Developer and Designer from Komolgonj,
-                    Maulovibazar, Sylhet, Bangladesh. I specialize in creating
-                    innovative, user-friendly, and scalable web solutions with a
-                    strong foundation in modern technologies. Feel free to
-                    explore my work below, and don’t hesitate to connect if
-                    you’d like to collaborate on a project.
+                    Hello! I’m Ghs Julian, a high-performance Full-Stack Web
+                    Developer based in Sylhet, Moulovibazar, Komolgonj,
+                    Madhabpur. With a track record of over 150+ successful
+                    projects on GitHub, I specialize in building scalable,
+                    secure, and futuristic web applications using the MERN
+                    stack, PHP, and Python. Whether you're looking for a robust
+                    e-commerce platform or a real-time custom engine, I turn
+                    complex requirements into seamless digital reality.
                 </article>
                 <div className="btn-area">
                     <NavLink
@@ -88,17 +89,16 @@ const Hero = () => {
                     >
                         <FaYoutube />
                     </NavLink>
-                    <NavLink to="https://github.com/Ghsjulian" target="_blank">
+                    <NavLink to="https://github.com/ghsjulian" target="_blank">
                         <FaGithub />
                     </NavLink>
                 </div>
             </div>
             <div className="hero-img">
-            {/*
+                {/*
                 <img id="hero-logo" src="/images/ghs-passport-photo-2.jpg" />
                 */}
-                <img id="hero-logo" src="/images/ghsjulian--1.png" />
-                
+                <img id="hero-logo" src="/images/ghs-logo-hero.png" />
             </div>
         </section>
     );
