@@ -1,5 +1,12 @@
 [
     {
+        "project_id": 109071001,
+        "project_name": "Elite Guard LLC",
+        "project_img": "../projects/elite-guard.jpg",
+        "project_url": "https://github.com/ghsjulian/elite-guard",
+        "project_date": "15 March 2026"
+    },
+    {
         "project_id": 101001,
         "project_name": "File Explorer",
         "project_img": "../projects/file-explorer.jpg",
