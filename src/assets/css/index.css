@@ -718,6 +718,10 @@ footer {
     #about :nth-child(1) {
         order: -1;
     }
+   section .hero-img {
+        width: 300px;
+        height: 300px;
+    }
     section .hero-img img {
         width: 300px;
         height: 300px;
