@@ -98,7 +98,11 @@ const Hero = () => {
                 {/*
                 <img id="hero-logo" src="/images/ghs-passport-photo-2.jpg" />
                 */}
+                {/*
                 <img id="hero-logo" src="/images/ghs-logo-hero.png" />
+                */}
+                
+                <img id="hero-logo" src="/images/ghs-hero2.png" />
             </div>
         </section>
     );
